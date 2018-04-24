@@ -1,0 +1,162 @@
+/*
+* @Author: lenovo
+* @Date:   2018-04-24 20:40:26
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-04-24 20:47:55
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #F5F5F5;
+}
+.pj{
+	width: 1226px;
+	height: 694px;
+	border: 0;
+	margin: 0 auto;
+}
+.pj .title{
+	width: 100%;
+	height: 80px;
+}
+.pj .title .font{
+	width: 234px;
+	height: 58px;
+	display: block;
+	color: #333333;
+	float: left;
+	text-align: left;
+	margin-top: 22px;
+	font-size: 22px;
+	font-weight: 200; 
+}
+.pj .title .font1{
+	height: 58px;
+	display: block;
+	margin-top: 22px;
+	margin-left: 30px;
+	line-height: 58px;
+	font-size: 16px;
+	color: #424242;
+	float: right;
+	text-align: right;
+}
+.pj .con{
+	width: 100%;
+	height: 614px;
+}
+.pj .con .box{
+	width: 234px;
+	height: 300px;
+	border-bottom: 14px solid #F5F5F5;
+	border-right: 14px solid #F5F5F5;
+	float: left;
+	background-color: white;
+	text-align: center;
+}
+.pj .con .box1{
+	border-right: 0;
+}
+.pj .con .box2{
+	height: 143px;
+}
+.pj .con .box a{
+	width: 234px;
+	height: 300px;
+	display: block;
+}
+.pj .con .box3 .imgbox{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 34px auto 0;
+}
+.pj .con .box .font{
+	height: 21px;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 400px;
+}
+.pj .con .box h4{
+	color: #B0B0B0;
+	height: 18px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.pj .con .box h4{
+	margin-top: 20px;
+}
+.pj .con .box h5{
+	color: #ff6700;
+
+}
+.pj .con .box2 a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 40px;
+	float: left; 
+}
+.pj .con .box2 .smallbox{
+	display: block;
+	width: 94px;
+	height: 45px;
+	margin-top: 40px;
+	margin-left: 30px;
+	line-height: 21px;
+	float: left;
+}
+.pj .con .box2 .smallbox h5{
+	text-align: left;
+}
+.pj .con .box2 .smallbox a{
+	display: block;
+	width: 94px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	text-align: left;
+}
+.pj .con .smallbox1{
+	display: block;
+	width: 94px;
+	height: 45px;
+	margin-top: 50px;
+	margin-left: 30px;
+	float: left;
+	text-align: left;
+}
+.pj .con .smallbox1 a{
+	display: block;
+	margin: 0;
+}
+.pj .con .smallbox1 h3{
+	line-height: 27px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.ad{
+	width: 1226px;
+	height: 120px;
+	border-top: 42px solid #F5F5F5;
+	margin: 0 auto;
+}
+.ad a{
+	display: block;
+	width: 1226px;
+	height: 120px;
+}

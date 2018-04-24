@@ -1,0 +1,243 @@
+/*
+* @Author: lenovo
+* @Date:   2018-04-22 15:24:33
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-04-24 21:08:21
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #F5F5F5;
+}
+.phone{
+	width: 1226px;
+	height: 672px;
+	border: 0;
+	margin: 0 auto;
+}
+.phone .title{
+	width: 100%;
+	height: 58px;
+}
+.title .font{
+	width: 50%;
+	line-height: 58px;
+	float: left;
+}
+.title .font1{
+	font-size: 22px;
+	text-align: left;
+	font-weight:200;
+	color: #333333;
+}
+.title .font2{
+	font-size:16px;
+	text-align: right;
+	color: #424242;
+}
+.phone .con{
+	width: 100%;
+	height: 614px;
+}
+.con .box{
+	width: 234px;
+	height: 614px;
+	border-right: 14px solid #F5F5F5;
+	float: left;
+	text-align: center;
+}
+.con .box .bigbox a{
+	display: block;
+	width: 234px; 
+	height: 614px;
+}
+.con .box .box2 .imgbox{
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 18px;
+	padding-top: 20px;
+}
+.con .box .box2 h3{
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+}
+.con .box .box2 h4{
+	margin: 5px 10px 10px;
+	height: 18px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.con .box .box2 h5{
+	margin: 0 10px 14px;
+	color: #ff6700;
+
+}
+del{
+	color: #B0B0B0;
+}
+.con .box1{
+	border-right: 0;
+}
+.box2{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	border-bottom: 14px solid #F5F5F5;
+}
+.box3{
+	border-bottom: 0;
+}
+
+.ad{
+	width: 1226px;
+	height: 120px;
+	border-top: 42px solid #F5F5F5;
+	margin: 0 auto;
+}
+.ad a{
+	display: block;
+	width: 1226px;
+	height: 120px;
+}
+
+.ele, .intel, .dp, .pj, .zb{
+	width: 1226px;
+	height: 694px;
+	border: 0;
+	margin: 0 auto;
+}
+.ele .title, .intel .title, .dp .title, .pj .title, .zb .title{
+	width: 100%;
+	height: 80px;
+}
+.ele .title .font, .intel .title .font, .dp .title .font, .pj .title .font, .zb .title .font{
+	width: 234px;
+	height: 58px;
+	display: block;
+	color: #333333;
+	float: left;
+	text-align: left;
+	margin-top: 22px;
+	font-size: 22px;
+	font-weight: 200; 
+}
+.ele .title .font1, .intel .title .font1, .dp .title .font1, .pj .title .font1, .zb .title .font1{
+	height: 58px;
+	display: block;
+	margin-top: 22px;
+	margin-left: 30px;
+	line-height: 58px;
+	font-size: 16px;
+	color: #424242;
+	float: right;
+	text-align: right;
+}
+.ele .con, .intel .con, .dp .con, .pj .con, .zb .con{
+	width: 100%;
+	height: 614px;
+}
+.ele .con .box, .intel .con .box, .dp .con .box, .pj .con .box, .zb .con .box{
+	width: 234px;
+	height: 300px;
+	border-bottom: 14px solid #F5F5F5;
+	border-right: 14px solid #F5F5F5;
+	float: left;
+	background-color: white;
+	text-align: center;
+}
+.ele .con .box1, .intel .con .box1, .dp .con .box1, .pj .con .box1, .zb .con .box1{
+	border-right: 0;
+}
+.ele .con .box2, .intel .con .box2, .dp .con .box2, .pj .con .box2, .zb .con .box2{
+	height: 143px;
+}
+.ele .con .box a, .intel .con .box a, .dp .con .box a, .pj .con .box a, .zb .con .box a{
+	width: 234px;
+	height: 300px;
+	display: block;
+}
+.ele .con .box3 .imgbox, .intel .con .box3 .imgbox, .dp .con .box3 .imgbox, .pj .con .box3 .imgbox, .zb .con .box3 .imgbox{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 34px auto 0;
+}
+.ele .con .box .font, .intel .con .box .font, .dp .con .box .font, .pj .con .box .font, .zb .con .box .font{
+	height: 21px;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 400px;
+}
+.ele .con .box h4, .intel .con .box h4, .dp .con .box h4, .pj .con .box h4, .zb .con .box h4{
+	color: #B0B0B0;
+	height: 18px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.dp .con .box h4, .pj .con .box h4, .zb .con .box h4{
+	margin-top: 20px;
+}
+.ele .con .box h5, .intel .con .box h5, .dp .con .box h5, .pj .con .box h5, .zb .con .box h5{
+	color: #ff6700;
+
+}
+.ele .con .box2 a, .intel .con .box2 a, .dp .con .box2 a, .pj .con .box2 a, .zb .con .box2 a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 40px;
+	float: left; 
+}
+.ele .con .box2 .smallbox, .intel .con .box2 .smallbox, .dp .con .box2 .smallbox, .pj .con .box2 .smallbox, .zb .con .box2 .smallbox{
+	display: block;
+	width: 94px;
+	height: 45px;
+	margin-top: 40px;
+	margin-left: 30px;
+	line-height: 21px;
+	float: left;
+}
+.ele .con .box2 .smallbox h5, .intel .con .box2 .smallbox h5, .dp .con .box2 .smallbox h5, .pj .con .box2 .smallbox h5, .zb .con .box2 .smallbox h5{
+	text-align: left;
+}
+.ele .con .box2 .smallbox a, .intel .con .box2 .smallbox a, .dp .con .box2 .smallbox a, .pj .con .box2 .smallbox a, .zb .con .box2 .smallbox a{
+	display: block;
+	width: 94px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	text-align: left;
+}
+.ele .con .smallbox1, .intel .con .smallbox1, .dp .con .smallbox1, .pj .con .smallbox1, .zb .con .smallbox1{
+	display: block;
+	width: 94px;
+	height: 45px;
+	margin-top: 50px;
+	margin-left: 30px;
+	float: left;
+	text-align: left;
+}
+.ele .con .smallbox1 a, .intel .con .smallbox1 a, .dp .con .smallbox1 a, .pj .con .smallbox1 a, .zb .con .smallbox1 a{
+	display: block;
+	margin: 0;
+}
+.ele .con .smallbox1 h3, .intel .con .smallbox1 h3, .dp .con .smallbox1 h3, .pj .con .smallbox1 h3, .zb .con .smallbox1 h3{
+	line-height: 27px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+}
